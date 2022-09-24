@@ -2,7 +2,7 @@
 using System.Collections.Concurrent;
 using System.Threading;
 
-namespace Blend.ActionQueue
+namespace BlendInteractive.ActionQueue
 {
     public abstract class AbstractActionQueue<T>
     {

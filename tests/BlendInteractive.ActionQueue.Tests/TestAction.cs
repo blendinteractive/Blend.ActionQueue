@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Blend.ActionQueue.Tests
+namespace BlendInteractive.ActionQueue.Tests
 {
     public class TestAction
     {

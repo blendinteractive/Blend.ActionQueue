@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Blend.ActionQueue.Tests.Examples
+namespace BlendInteractive.ActionQueue.Tests.Examples
 {
     /// <summary>
     /// This is an example message type where the `Action` to execute is provided in the constructor.

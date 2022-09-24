@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using Xunit;
 
-namespace Blend.ActionQueue.Tests.Examples
+namespace BlendInteractive.ActionQueue.Tests.Examples
 {
     public class ExampleTests
     {

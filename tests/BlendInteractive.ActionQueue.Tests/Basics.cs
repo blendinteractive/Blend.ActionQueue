@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using Xunit;
 
-namespace Blend.ActionQueue.Tests
+namespace BlendInteractive.ActionQueue.Tests
 {
     public class Basics
     {

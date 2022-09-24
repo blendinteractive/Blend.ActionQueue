@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <PackageId>BlendInteractive.ActionQueue</PackageId>
+    <Description>A simple, non-durable queue for when you need something like a message queue, but with minimal setup, for small, low-volume messages or actions where persistence is not a requirement.</Description>
+
+    <Version>1.0.1</Version>
+    <PackageVersion>1.0.1</PackageVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+
+    <Authors>Blend Interactive</Authors>
+    <Company>Blend Interactive</Company>
+
+    <PackageProjectUrl>https://github.com/blendinteractive/Blend.ActionQueue</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/blendinteractive/Blend.ActionQueue.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <PackageIcon>icon.png</PackageIcon>
+  	<PackageLicenseFile>License</PackageLicenseFile>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIconUrl />
+
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
+  </ItemGroup>
+
+   <ItemGroup>
+    <None Include="..\..\License">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+</Project>

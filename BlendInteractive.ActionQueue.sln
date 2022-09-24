@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blend.ActionQueue", "src\Blend.ActionQueue\Blend.ActionQueue.csproj", "{F8A723BE-F1BA-4235-AAC7-2FA98B002792}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlendInteractive.ActionQueue", "src\BlendInteractive.ActionQueue\BlendInteractive.ActionQueue.csproj", "{F8A723BE-F1BA-4235-AAC7-2FA98B002792}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blend.ActionQueue.Tests", "tests\Blend.ActionQueue.Tests\Blend.ActionQueue.Tests.csproj", "{87835CBE-2C94-4D91-A7F3-8881FB0E730A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlendInteractive.ActionQueue.Tests", "tests\BlendInteractive.ActionQueue.Tests\BlendInteractive.ActionQueue.Tests.csproj", "{87835CBE-2C94-4D91-A7F3-8881FB0E730A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
